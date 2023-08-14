@@ -1,0 +1,151 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    
+}
+
+.logo {
+    width: 60px;
+    margin: 10px auto;
+    text-align: left;
+    padding: 0 10px 10px;
+    text-align: center;
+}
+
+.logo img {
+    width: 65px;
+}
+
+.nav {
+    width: 60%;
+    padding: 1%;
+    background-color: #D9D9D9;
+    color: black;
+}
+
+ul {
+    margin-right: auto;
+     padding: 25px; 
+}
+
+li {
+    padding: 10px; 
+}
+
+.herolmg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 0 40px 40px;
+}
+
+.content p {
+    padding: 25px;
+    text-align: justify;
+}
+
+.content img {
+    width: 200px;
+}
+
+
+    
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation {
+    background-color: #D9D9D9;
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.myUxSkills {
+    text-align: center;
+}
+
+.myUxSkills h1 {
+     margin: 4em 
+}
+.myUxSkills .parentContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    /* background-color: lightblue; */
+}
+.myUxSkills .childContainer {
+    width: 30%;
+    /* background-color: lightpink; */
+}
+.myUxSkills .parentContainer .childContainer img {
+    width: 100%;
+}
+.myUxSkills .parentContainer .childContainer h1 {
+    margin: 0.5em auto;
+}
+.myUxSkills .parentContainer .childContainer p {
+    text-align: left;
+}
+.caseStudy {
+    display:inline-flex;
+    margin-bottom: 6em;
+}
+.caseStudy img {
+    width: 300px;
+    height: auto;
+    margin: 0 3em;
+    
+
+}
+.caseStudy button {
+    margin: 0.5em;
+    height: 30px;
+    width: 90px;
+}
+h2 {
+    text-align: center;
+     margin: 3em; 
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.caseStudy h1 {
+    font-size: larger;
+}
+
+    @media all and (max-width: 600px) {
+        .myUxSkills .parentContainer {
+            display:block;          
+    }
+
+    .myUxSkills .childContainer {
+    margin: auto; 
+    width: 70%;  
+    }
+
+    .caseStudy {
+        display:block;
+        margin: auto;
+        width: 50%;
+    }
+    .caseStudy img {
+        display: block;
+    }
+}
